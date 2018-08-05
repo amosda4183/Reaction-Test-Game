@@ -1,0 +1,37 @@
+
+body{
+  text-align: center;
+
+  font-family: "courier", Times, serif;
+}
+
+#shape{
+  height: 150px;
+  width: 150px;
+  display:none;
+
+  position:relative;
+}
+
+
+button{
+  cursor:pointer;
+  outline:none;
+  padding: 20px;
+  margin: 5px;
+  font-size: 20px;
+  background-color: #0099ff;
+  color:white;
+
+  border:none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+
+}
+
+button:active{
+  background-color: #ff9933;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
